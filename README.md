@@ -1,12 +1,10 @@
 
 # SEC Football Database Project
 
-MIST 4610
-Project Part 2
+### MIST 4610
 
 ### Project Group 6 — Haeun Bae, Dylan Ray, Mattie Comte, Tucker Herring
 
----
 
 ## Project Objective
 
@@ -121,4 +119,3 @@ Additional SEC analytics query
 
 Each script includes reasoning and expected outcomes.
 
----
