@@ -1,71 +1,96 @@
 
-## SEC Football Database Project
+# SEC Football Database Project
 
 MIST 4610
-Project Part 1 and Part 2
+Project Part 2
 
 ### Project Group 6 — Haeun Bae, Dylan Ray, Mattie Comte, Tucker Herring
 
 ---
 
-## 📌 Project Overview
+## 🎯 Project Objective
 
-This project models SEC college football data using a relational database, SQL queries, and Power BI visualizations.
-The project is completed across two phases.
+The objective of Project Part 2 is to apply advanced SQL querying and data visualization techniques to analyze SEC college football data.
+This phase focuses on generating meaningful insights through complex SQL operations and transforming results into clear, professional analytics dashboards.
 
-### 🏈 Part 1 Data Modeling and SQL
+By the end of the project, students demonstrate proficiency in
 
-* Designed a complete EER diagram
-* Built a normalized relational schema
-* Created all tables with correct keys and relationships
-* Wrote ten SQL queries simple and complex
+* Writing multi table and analytical SQL queries
+* Identifying trends such as referee behavior, weather impacts, and scoring patterns
+* Building Power BI dashboards from SQL outputs
+* Communicating insights through managerial reasoning
 
-### 📊 Part 2 Analytics and Visualization
+---
 
-* Added five new complex SQL queries
-* Generated managerial insights
-* Built a Power BI dashboard
-* Exported all required visualizations
-* Submitted the final updated database schema and EER diagram
+## 🧩 Problem Overview
+
+After completing the database design and foundational SQL work in Part 1, Part 2 expands into **analytical storytelling**.
+
+Students examine deeper questions, for example
+
+* How does weather influence game outcomes
+* Do strict referees affect scoring
+* What trends exist in attendance across teams
+* How can managers interpret scoring differentials
+
+This phase connects database logic with data driven decision making.
+
+---
+
+## 🛠 Tools and Technologies Used
+
+* MySQL Workbench
+* SQL complex queries
+* Power BI Desktop
+* PDF and document exports for submission
+
+---
+
+## 📊 Data Used in Part 2
+
+The dataset includes detailed SEC football information such as
+
+* Game outcomes
+* Scoring margins
+* Weather conditions
+* Attendance figures
+* Referee data
+* Team and opponent attributes
+
+These were queried, aggregated, and visualized to discover meaningful performance insights.
+
+---
+
+## 🧠 Project Tasks Completed in Part 2
+
+### 🟦 Advanced SQL Querying
+
+Students created **five complex SQL queries** that explored
+referee strictness
+weather influence
+attendance patterns
+scoring behavior
+additional SEC analytics scenarios
+
+Each query was tested, documented, and exported with results.
+
+### 🟨 Data Visualization and Insights
+
+A Power BI dashboard was produced containing three major visuals
+
+* Average Point Differential
+* Average Attendance by Home Team
+* Game Results by Weather
+
+Each visualization includes written managerial reasoning explaining how a decision maker could interpret the trend.
 
 ---
 
 ## 📂 Repository Contents
 
-### 📁 Part1 Folder
-
-Contains all deliverables from Project Part 1.
-
-### 📘 collegefootball_schema_data.sql
-
-Original schema and dataset for Part 1.
-Maintained for version tracking and comparison.
-
-### 📘 queries_script.sql
-
-All SQL queries created for Part 1.
-
-### 📄 queries_deliverable_screenshots.docx
-
-Screenshots of all Part 1 SQL query results.
-
-### 📄 datamodel_MIST4610.png
-
-Early version of the EER diagram created during Part 1.
-
-### 📄 data_dictionary_old.xlsx
-
-Original Part 1 data dictionary prior to updates.
-
----
-
-### 📁 Part2 Folder
-
-Contains all deliverables from Project Part 2.
-
 ### 📘 Final_Database.sql
 
-Complete SQL script for Part 2 including all tables, foreign keys, constraints, and relational structure.
+Complete SQL script including all tables, constraints, keys, and updated schema used for Part 2 analysis.
 
 ### 📘 Final_EERDiagram_SQL.mwb
 
@@ -73,36 +98,36 @@ MySQL Workbench model file containing the finalized EER diagram.
 
 ### 📷 Final_EERDiagram_Png.png
 
-Exported PNG image of the finalized EER diagram used for submission.
+PNG export of the final EER diagram.
 
 ### 📊 Dashboard.pbit
 
-Power BI dashboard template featuring
-Average Point Differential
-Average Attendance by Home Team
-Game Results by Weather
+Power BI dashboard file containing Part 2 visualizations.
 
 ### 📄 3_Visualization_PDF.pdf
 
-PDF export of the required Part 2 visualizations
+PDF export of
 Average Point Differential
 Average Attendance
 Game Results by Weather
 
 ### 📄 3 Visualization_Managerial Reasoning.docx
 
-Managerial insights corresponding to the three main visualizations.
+Document explaining managerial insights for the three dashboard visuals.
 
 ### 📄 5 Complex Query and Result SC.docx
 
-Document containing all five Part 2 complex SQL queries and their screenshot results.
+Document containing all five SQL queries and screenshots of their outputs.
 
 ### 📁 5_Complex_Queries
 
-Folder containing the SQL code for
+Folder containing the SQL scripts for
 Referee Strictness Query
 Weather Impact Query
 Attendance Query
 Point Differential Query
-Additional analytics query
-Each file includes managerial reasoning.
+Additional SEC analytics query
+
+Each script includes reasoning and expected outcomes.
+
+---
